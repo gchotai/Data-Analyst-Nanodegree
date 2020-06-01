@@ -1,0 +1,11 @@
+SELECT
+city.year,
+city.city,
+city.country,
+city.avg_temp,
+global.avg_temp as "avg_temp_global"
+FROM city_data city
+INNER JOIN global_data global
+on city.year = global.year
+WHERE city.city = 'Singapore'
+AND city.avg_temp IS NOT NULL
