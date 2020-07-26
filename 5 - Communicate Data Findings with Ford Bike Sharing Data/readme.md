@@ -1,39 +1,25 @@
-# Communicate-Data-Finding-Exploration-with-Ford-GoBike-System-Data
+# Communicate Data Finding Exploration For ` Ford-GoBike-System-Data`
 ## by Gunja Chotai
 
+#Overview
+> Here I selected Ford GoBike System Data: https://www.fordgobike.com/system-data as data source for exploration data.Data source includes information about a bike-sharing system which is provided in the San Francisco Bay area.
+Collect all given .csv files for year 2018 and combine all data together as one dataset for analysis purpose. 
 
-# Project Table of Contents : 
-* Preliminary wrangling
-* Structure of dataset
-* Univariate Exploration and Analysis
-* Bivariate Exploration and Analysis
-* Multivariate Exploration and Analysis
+> This project has main two parts. 
+- In the first section, I am preparing an exploratory data analysis on selected dataset. In this I will use Python's numpy, pandas, matplotlib and seaborn library for data visualization and explore the dataset relationships. In the analysis part we should do univariate, bivariate and multivariate relationships exploration.
+- In the second part, I am preparing my findings from relationship exploration and try to convey them to others through an explanatory analysis. 
+For this, I will prepare a slide deck that will help me to create proper convenable visualizations to others.
 
+# Dataset
+>In this document dataset contains ford go bike sharing trip data. There is approximately 18,63,721  with 14 features like as duration_sec, start_time, end_time, start_station_id, start_station_name, start_station_latitude, start_station_longitude, end_station_id, end_station_name, end_station_latitude ,end_station_longitude, bike_id, user_type and bike_share_for_all_trip. 
+Most variables are 6 numerical, and others are 2 datetime, 6 object type. For clean dataset convert the data type for start and end time to be datetime64.
 
-# Why this project?
-This project is divided into two major parts. In the first part, you will conduct an exploratory data analysis on a dataset Ford GoBike System Data. I will use Python data science and data visualization libraries to explore the dataset’s variables and understand the data’s structure, patterns and relationships. The analysis in this part should be structured, going from simple univariate relationships up through multivariate relationships.
+#Summary of Findings
+> From Exploration distribution of the trip duration is that most of the trip is on an average about 10 mins. 
+And From June to Auguts in 2018 has the most trip held for longest duration. Other month have not significant difference.
+Most of the longest trip held in summer, for almost average 15 mins. But we can't find more significant difference of trip duration all four seasons. 
+Mostly subscribers take bike on rent for long trip like more than 300 minutes. And normal user can take bike rent for an average 100 minute.
 
-# What will I learn?
-After completing this project, I will be able to:
-
-- Supplement statistics with visualizations to build understanding of data.
-- Choose appropriate plots, limits, transformations, and aesthetics to explore a dataset, allowing you to understand distributions of variables and relationships between features.
-- Create effective visualizations for communicating findings to an audience.
-
-
-### Data source :
-Ford GoBike System Data : https://www.fordgobike.com/system-data
-This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area .
-
-### Features :
-Trip Duration (seconds) , Start Time and Date , End Time and Date , Start Station ID , Start Station Name , Start Station Latitude , Start Station Longitude ,  End Station ID , End Station Name,  End Station Latitude , End Station Longitude , Bike ID , User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual) and bike_share_for_all_trip
-
-### Questions to be answered: 
-1. What is the distribution of trip duration?
-2. Is the trip duration affected by weather( months/seasons)
-3. Does the above depend on if a user is a subscriber or customer?
-
-
-### Summary of findings :
-Since the trip duration has a close relationship with bike share company's revenue, I tried to find out what are the key factors affect 
-trip duration. It turns out that Weather does not have a big effect on the trip duration but user type does have an impact on trip duration. According the analysis, I found subscribers tend to rend the bikes for longer trips ( generally above 300 minutes ). One possible way to increase revenue is to attract more potential customers and convert more exiting customers to subscribers. 
+#Key Insights for Presentation
+> season can't affect to bike rent system because san francisco bay area has almost same wheather throughout the years.
+And User type didn't make any diffrence for trip duration.
