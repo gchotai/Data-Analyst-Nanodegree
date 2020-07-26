@@ -1,7 +1,7 @@
 # Communicate Data Finding Exploration For ` Ford-GoBike-System-Data`
 ## by Gunja Chotai
 
-#Overview
+# Overview
 > Here I selected Ford GoBike System Data: https://www.fordgobike.com/system-data as data source for exploration data.Data source includes information about a bike-sharing system which is provided in the San Francisco Bay area.
 Collect all given .csv files for year 2018 and combine all data together as one dataset for analysis purpose. 
 
