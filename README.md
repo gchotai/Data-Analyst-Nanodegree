@@ -2,6 +2,7 @@
 ### Gunja Chotai
 This repository contains projects I have done under Udacity [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002).
 
+![Certificate](Certificate.png)
 
 Udacity online data analyst program prepares me for a career as a data analyst by helping me learn to clean and organize data, uncover patterns and insights, draw meaningful conclusions, and clearly communicate critical findings. I am developing proficiency in Python and its data analysis libraries (Numpy, pandas, Matplotlib) and SQL as I build a portfolio of projects .
 
@@ -78,7 +79,7 @@ Subjects Covered:
 * Explanatory Visulizations ( story telling with data ,  polish plots , create slide deck ) 
 
 
-### Project 5: Communicate data finding with Ford Go Bike Sharing Data
+### Project 5: Communicate data finding with City Bike System Data
 In this project, I used Python’s data visualization tools to systematically explore the bike dataset for
 its properties and relationships between variables. Then, I created a presentation that communicates the findings to others.
 
